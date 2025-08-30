@@ -1,0 +1,15 @@
+{
+  "name": "vulnerable-todo-app",
+  "version": "1.0.0",
+  "description": "A demo todo app with intentional security issues",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.4",
+    "mysql": "2.15.0",
+    "bcrypt": "3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

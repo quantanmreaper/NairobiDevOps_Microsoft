@@ -1,0 +1,19 @@
+{
+  "name": "repo-guardian-dashboard",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "clean": "turbo clean"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.12",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
